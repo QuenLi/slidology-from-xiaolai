@@ -10,6 +10,8 @@
 
 打开 Word，关闭所有文档，而后在 Help 菜单下的搜索框中输入 “Editor”，你会看到 “Visual Basic Editor” 菜单跳出并突出显示，直接按回车键（Enter），即能打开 Visual Basic Editor。（呼出 Help 菜单的快捷键是 `Shift + Command + /`）
 
+(在 windows 10 里头，需要按下 Alt + F11，才能叫出 Visual Basic Editor。）
+
 ![](images/help-editor.png)
 
 在左侧上部 “Project - Normal” 面板中选择 “NewMacros”，而后在右侧 “Normal - NewMacros (Code)” 面板中输入以下代码（或者拷贝粘贴）：
@@ -78,6 +80,8 @@ End Sub
 
 按快捷键 `Command + s` 保存，而后关掉 “Visual Basic Editor”。刚刚完成的是，在 “Normal” 这个模版中添加了 10 个宏。以后，你用 Normal 这个模版创建的所有文档，都自动带有这 10 个宏。在直播中，你有可能会创建新的模版（比如，希望用这个模版新建的文件大小都是定制过的），那么就需要你在新的模版里重新添加 “NewMacros” 才行。
 
+(以下部分在 windows 10 的操作中，直接點選左上角的**檔案**，接著點選**其他**，再到**選項**裡頭，選取**自訂功能區**，將**由此選擇命令**的下拉式選單，選取**巨集**，也就是這裡提到的 Macros)
+
 现在，回到主菜单，再次从 “Help” 菜单的搜索框里输入 “keyboard”：
 
 ![](images/help-keyboard.png)
@@ -135,6 +139,7 @@ End Sub
 
 现在，直播平台基本上都支持 [OBS](https://obsproject.com/) 推流。在 OBS 场景布置中，放一个 “窗口捕捉”，显示 Word 窗口，即可以拥有一个相当方便的 “白板”（或 “黑板”、甚至 “绿板”）。
 
+(这部分还不是很了解，需要后续进一步学习。推测是与笑来老师一样的直播显示手法吧)
 
 ------
 补充：
